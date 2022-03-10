@@ -1,0 +1,92 @@
+.tab-menu{
+    margin: auto;
+    margin-top: 100px;
+    width: 640px;
+    
+    background: #FFFFFF;
+    box-sizing: border-box; 
+}
+
+.tab-menu-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex:1;
+    width: 640px;
+    padding: 40px;
+    background: #FFFFFF;
+    border: 1px solid #E1E1E1;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+.input{
+    display: flex;
+    width: 520px;
+    height: 58px;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+    background: #F8FBFD;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    border-radius: 30px;
+}
+
+.button{
+    width: 320px;
+    height: 58px;
+
+    background: #F38231;
+    border: 1px solid #F3F3F3;
+    box-sizing: border-box;
+    color:#ffffff;
+    font-weight: 600;
+    margin-top: 40px;
+    
+    border-radius: 30px;
+}
+
+.password-icon{
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    font-size: 33px;
+    cursor: pointer;
+}
+
+.forget-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px 65px;
+    margin-top: 20px;
+}
+
+.accept-box{
+    display: flex;
+    width: 100%;
+    padding: 0px 30px;
+    margin-top: 20px;
+}
+
+.mini-font{
+    font-size: 11px;
+}
+
+.wrong-text{
+    color: red;
+}
+
+.name-div{
+    display: flex;
+    flex-direction: row; 
+    width: 520px;
+    justify-content: space-between;
+}
+
+.name-div input{
+    width: 250px;
+}
